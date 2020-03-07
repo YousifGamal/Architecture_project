@@ -1,0 +1,143 @@
+Library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use IEEE.std_logic_unsigned.all;
+
+ENTITY ALU IS
+PORT(
+--SEL  	       :  IN std_logic_vector(4 downto 0);
+INPUTA ,INPUTB :  IN std_logic_vector(15 downto 0);
+ALUOUT         :  OUT std_logic_vector(15 downto 0);
+IR  	       :  IN std_logic_vector(15 downto 0);
+ALU_GEN        :  IN std_logic_vector(1 downto 0);
+REGFLAGIN      :  IN std_logic_vector(4 downto 0);   -- carry - zero - negative - partiy - overflow
+REGFLAGOUT     :  OUT std_logic_vector(4 downto 0)
+--ALUINPUT:  OUT std_logic_vector(4 downto 0)
+);
+END ALU ;
+
+ARCHITECTURE a_ALU of ALU is
+
+COMPONENT ALU_Input IS
+PORT(
+IR  	:  IN std_logic_vector(15 downto 0);
+ALU_GEN :  IN std_logic_vector(1 downto 0);
+ALUINPUT:  OUT std_logic_vector(4 downto 0)
+);
+END COMPONENT;
+
+COMPONENT nbits_adder IS
+PORT (
+A,B	          :  IN   std_logic_vector (15 DOWNTO 0);
+S                 :  OUT  std_logic_vector (15 DOWNTO 0);
+Cin               :  IN   std_logic;
+Cout              :  OUT  std_logic
+);
+END COMPONENT;
+
+SIGNAL S : std_logic_vector(4 downto 0);
+
+SIGNAL ADD, ADC, INC, NOTB, BComp: std_logic_vector (15 DOWNTO 0);
+SIGNAL DEC, SUB, SBB ,IN1,IN2: std_logic_vector(16 DOWNTO 0);
+SIGNAL CADD, CADC, CSUB , CSBB , CBComp ,CINC ,CDEC : std_logic;
+SIGNAL OUTPUT :std_logic_vector (15 DOWNTO 0);
+
+BEGIN
+p1 : ALU_Input PORT MAP(IR,ALU_GEN,S);
+
+
+R0 : NOTB <= NOT INPUTB;
+U0 : nbits_adder PORT MAP (NOTB, "0000000000000000" , BComp, '1', CBComp);
+U1 : nbits_adder PORT MAP (INPUTA, INPUTB, ADD, '0', CADD);
+U2 : nbits_adder PORT MAP (INPUTA, INPUTB, ADC, REGFLAGIN(0), CADC);
+--U3 : nbits_adder PORT MAP (INPUTA, BComp, SUB, '0', CSUB);
+--U4 : nbits_adder PORT MAP (INPUTA, NOTB, SBB, '0', CSBB);
+U5 : nbits_adder PORT MAP (INPUTA,"0000000000000000" , INC, '1', CINC);
+--U6 : nbits_adder PORT MAP (INPUTA, "1111111111111111", dec, '0', CDEC);
+
+IN1 <= '0' & INPUTA;
+IN2 <= '0' & INPUTB;
+
+SUB <= IN1 - IN2 ;
+SBB <= IN1 - IN2 - REGFLAGIN(0) ;
+DEC <= IN1 -1;
+
+          -- 2 OPERAND INSTRUCTIONS
+OUTPUT <= INPUTA AND   INPUTB WHEN S = "00010" ELSE  -- AND
+          INPUTA OR    INPUTB WHEN S = "00011" ELSE  -- OR
+          INPUTA XNOR  INPUTB WHEN S = "01010" ELSE  -- XNOR
+          SUB(15 downto 0)    WHEN S = "01011" ELSE  -- CMPS
+          ADD                 WHEN S = "00100" ELSE  -- ADD
+          ADC                 WHEN S = "00101" ELSE  -- ADC
+          SUB(15 downto 0)    WHEN S = "01100" ELSE  -- SUB
+          SBB(15 downto 0)    WHEN S = "01101" ELSE  -- SBC
+          INPUTB              WHEN S = "00110" Else  -- MOV
+          -- ONE OPERAND INSTRUCTIONS
+          INC                 WHEN S = "10001" ELSE  -- INC
+          DEC(15 downto 0)    WHEN S = "10010" ELSE  -- DEC
+          INPUTA XOR INPUTA   WHEN S = "10011" ELSE  -- CLEAR
+          NOT INPUTA          WHEN S = "10100" ELSE  -- NOT
+          '0' & INPUTA (15 DOWNTO 1)      	WHEN S = "10101" ELSE  -- LSR
+          INPUTA(0) & INPUTA(15 DOWNTO 1) 	WHEN S = "10110" ELSE  -- ROR
+      	  REGFLAGIN(0) & INPUTA(15 DOWNTO 1)    WHEN S = "10111" ELSE  -- RRC
+      	  INPUTA (15) & '0' & INPUTA(14 DOWNTO 1)    	WHEN S = "11000" ELSE  -- ASR
+          INPUTA (14 DOWNTO 0) & '0'            WHEN S = "11001" ELSE  -- LSL
+      	  INPUTA (14 DOWNTO 0) & INPUTA(15)     WHEN S = "11010" ELSE  -- ROL
+      	  INPUTA (14 DOWNTO 0) & REGFLAGIN(0)   WHEN S = "11011" ELSE  -- RLC
+          "ZZZZZZZZZZZZZZZZ";
+
+ALUOUT <= OUTPUT WHEN (OUTPUT /= "ZZZZZZZZZZZZZZZZ" OR INPUTA /= "ZZZZZZZZZZZZZZZZ") AND S /=  "01011"  ELSE
+	  INPUTA WHEN  (OUTPUT /= "ZZZZZZZZZZZZZZZZ" OR INPUTA /= "ZZZZZZZZZZZZZZZZ") AND  S = "01011" ELSE
+           "0000000000000000" ;   -- SET ALU_OUTPUT
+
+          --UPDATE CARRY  FLAG
+
+REGFLAGOUT(0)   <= SUB(16)  WHEN S = "01011" AND ALU_GEN = "11"  AND INPUTA /= "ZZZZZZZZZZZZZZZZ" ELSE  -- CMP
+                   CADD  WHEN S = "00100" AND ALU_GEN = "11"  AND INPUTA /= "ZZZZZZZZZZZZZZZZ"  ELSE  -- ADD
+                   CADC  WHEN S = "00101" AND ALU_GEN = "11"  AND INPUTA /= "ZZZZZZZZZZZZZZZZ" ELSE  -- ADC
+                   SUB(16)  WHEN S = "01100" AND ALU_GEN = "11"  AND INPUTA /= "ZZZZZZZZZZZZZZZZ" ELSE  -- SUB
+                   SBB(16)  WHEN S = "01101" AND ALU_GEN = "11"  AND INPUTA /= "ZZZZZZZZZZZZZZZZ" ELSE  -- SBC
+                   CINC     WHEN S = "10001" AND ALU_GEN = "11"  AND INPUTA /= "ZZZZZZZZZZZZZZZZ" ELSE  -- INC
+                   DEC(16)  WHEN S = "10010" AND ALU_GEN = "11"  AND INPUTA /= "ZZZZZZZZZZZZZZZZ" ELSE  -- DEC
+                   INPUTA (0)  WHEN S = "10111" AND ALU_GEN = "11"  AND INPUTA /= "ZZZZZZZZZZZZZZZZ" ELSE  -- RRC
+                   INPUTA (15) WHEN S = "11011" AND ALU_GEN = "11"  AND INPUTA /= "ZZZZZZZZZZZZZZZZ" ELSE  -- RLC
+                   '0' WHEN S = "10011"AND ALU_GEN = "11"  AND INPUTA /= "ZZZZZZZZZZZZZZZZ" ELSE   -- AND OR XNOR MOV CLEAR NOT LSR ROR ASR LSR LSL
+                   REGFLAGIN(0);
+
+          --UPDATE ZERO FLAG
+
+REGFLAGOUT(1)   <= '1' WHEN OUTPUT  = "0000000000000000" AND ALU_GEN = "11" AND INPUTA /= "ZZZZZZZZZZZZZZZZ" ELSE
+                   '0' WHEN OUTPUT /= "0000000000000000"AND ALU_GEN = "11" AND INPUTA /= "ZZZZZZZZZZZZZZZZ" ELSE
+                   REGFLAGIN(1);
+
+          --UPDATE negative FLAG
+
+REGFLAGOUT(2)   <= '1' WHEN OUTPUT(15) = '1' AND ALU_GEN = "11" AND INPUTA /= "ZZZZZZZZZZZZZZZZ" ELSE
+                   '0' WHEN OUTPUT(15) = '0' AND ALU_GEN = "11" AND INPUTA /= "ZZZZZZZZZZZZZZZZ" ELSE
+                   REGFLAGIN(2);
+
+          --UPDATE partiy FLAG
+
+REGFLAGOUT(3)   <= '1' WHEN OUTPUT(0)  = '0' AND ALU_GEN = "11" AND INPUTA /= "ZZZZZZZZZZZZZZZZ" ELSE
+                   '0' WHEN OUTPUT(0)  = '1' AND ALU_GEN = "11" AND INPUTA /= "ZZZZZZZZZZZZZZZZ" ELSE
+                    REGFLAGIN(3);
+
+          --UPDATE overflow FLAG
+
+REGFLAGOUT(4)   <= '1' WHEN OUTPUT(15) = '1' AND INPUTA(15) = '0' AND INPUTB(15) = '0' AND (S = "00100" OR S = "00101") AND ALU_GEN = "11" ELSE --p+p=n
+                   '1' WHEN OUTPUT(15) = '0' AND INPUTA(15) = '1' AND INPUTB(15) = '1' AND (S = "00100" OR S = "00101") AND ALU_GEN = "11" ELSE --n+n=p
+                   '1' WHEN OUTPUT(15) = '1' AND INPUTA(15) = '0' AND INPUTB(15) = '1' AND (S = "01100" OR S = "01101") AND ALU_GEN = "11" ELSE --p-n=n
+                   '1' WHEN OUTPUT(15) = '0' AND INPUTA(15) = '1' AND INPUTB(15) = '0' AND (S = "01100" OR S = "01101") AND ALU_GEN = "11" ELSE --n-p=p
+                   '0' WHEN ALU_GEN = "11" ELSE
+                   REGFLAGIN(4);
+
+END a_ALU ;
+
+
+
+
+ -- NOTES :
+
+ -- 1- --- hoa opeartions zy el and w or w klam dah el ml7sh d3wa bel carry flag el mfrod a reseto wla asebo zy maho ??
+ -- 2- --- check 3la carry flag fel sub w dec w sbc
+ -- 3- --- TEST overflow FLAG

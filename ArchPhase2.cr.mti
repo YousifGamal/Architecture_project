@@ -1,0 +1,287 @@
+{E:/Arch Assignments/projects/FinalVersion/decoder38.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/decoder38.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decoder38
+-- Compiling architecture decoder38_arch of decoder38
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/16RegbitFalling.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/16RegbitFalling.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg16Falling
+-- Compiling architecture reg16Falling_arch of reg16Falling
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/16RegRising.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/16RegRising.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg16Rising
+-- Compiling architecture reg16Rising_arch of reg16Rising
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/ALU.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:\Arch Assignments\projects\FinalVersion\ALU.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ALU
+-- Compiling architecture a_ALU of ALU
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/half_adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/half_adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity half_adder
+-- Compiling architecture ha_dataflow of half_adder
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/wideBrachPart2.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/wideBrachPart2.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity wideBranchPart2
+-- Compiling architecture wideBranchPart2_arch of wideBranchPart2
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/triStateBuffer.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/triStateBuffer.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tristateBuffer
+-- Compiling architecture tristateBuffer_arch of tristateBuffer
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/81mux_6bits.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/81mux_6bits.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux81_6bits
+-- Compiling architecture mux81_6bits_arch of mux81_6bits
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/control-store.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/control-store.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity controlstore
+-- Compiling architecture syncrama of controlstore
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/81mux.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/81mux.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux81
+-- Compiling architecture mux81_arch of mux81
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/42decoder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/42decoder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decoder42
+-- Compiling architecture decoder42_arch of decoder42
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/BranchCheck.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/BranchCheck.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity branchCheck
+-- Compiling architecture checkBranch_arch of branchCheck
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/42encoder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/42encoder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity encoder42
+-- Compiling architecture encoder42_arch of encoder42
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/42mux_6bits.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/42mux_6bits.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux4_6bits
+-- Compiling architecture mux4Arch_6bits of mux4_6bits
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/WideBranch.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/WideBranch.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity wideBranch
+-- Compiling architecture wideBranch_arch of wideBranch
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/wideBranchPart1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/wideBranchPart1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity wideBranchPart1
+-- Compiling architecture wideBranchPart1_arch of wideBranchPart1
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/zRegister.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/zRegister.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity zreg16Rising
+-- Compiling architecture zreg16Rising_arch of zreg16Rising
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/newMain.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:\Arch Assignments\projects\FinalVersion\newMain.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mianEnt
+-- Compiling architecture mianEnt_arch of mianEnt
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/ram.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/ram.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ram
+-- Compiling architecture syncrama of ram
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/32bitREgister.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/32bitREgister.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity register32
+-- Compiling architecture register32_arch of register32
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/full_adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/full_adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity full_adder
+-- Compiling architecture fa_mix of full_adder
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/checkDirIndirDest.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/checkDirIndirDest.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity checkDirIndirDest
+-- Compiling architecture checkDirIndirDest_arch of checkDirIndirDest
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/checkDirIndirSrc.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/checkDirIndirSrc.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity checkDirIndirSrc
+-- Compiling architecture checkDirIndirSrc_arch of checkDirIndirSrc
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/mainDecoder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/mainDecoder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mainDecoder
+-- Compiling architecture mainDecoder_arch of mainDecoder
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/21mux_6bits.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/21mux_6bits.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2_16bit
+-- Compiling architecture mux2Arch_16bit of mux2_16bit
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/21mux.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/21mux.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2
+-- Compiling architecture mux2Arch of mux2
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/main.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/main.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity main
+-- Compiling architecture main_arch of main
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/AluInputs.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/AluInputs.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALU_Input
+-- Compiling architecture a_ALU_Input of ALU_Input
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/Decoder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/Decoder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decoder
+-- Compiling architecture decoder_arch of decoder
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/DestBranch.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/DestBranch.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity destBranch
+-- Compiling architecture destBranch_arch of destBranch
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/41mux.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/41mux.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux4
+-- Compiling architecture mux4Arch of mux4
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/checkDestRegDirect.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/checkDestRegDirect.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity checkDestRegDirect
+-- Compiling architecture checkDestRegDirect_arch of checkDestRegDirect
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/nbits_adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/nbits_adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nbits_adder
+-- Compiling architecture nadder_mix of nbits_adder
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/dflipflop.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/dflipflop.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dFlipFlop
+-- Compiling architecture dFlipFlop_arch of dFlipFlop
+
+} {} {}} {E:/Arch Assignments/projects/FinalVersion/mdr_reg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Arch Assignments/projects/FinalVersion/mdr_reg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mdr_register
+-- Compiling architecture a_mdr_register of mdr_register
+
+} {} {}}

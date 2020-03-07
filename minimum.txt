@@ -1,0 +1,21 @@
+MOV 18,R0
+MOV #19,R2
+MOV (R2)+,17
+DEC R0
+CMP 17,@(R2)
+BLS 2
+MOV @(R2),17
+DEC R0
+BEQ 2
+INC R2
+BR -9
+HLT
+#0
+#7
+#4
+#5
+#3
+#6
+#1
+#8
+#0

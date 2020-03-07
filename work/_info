@@ -1,0 +1,1388 @@
+m255
+K4
+z2
+!s11e vcom 2019.2 2019.04, Apr 17 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/Arch Assignments/projects/Arch ALU
+Ealu
+Z0 w1577047455
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z6 dE:/Arch Assignments/projects/FinalVersion
+Z7 8E:\Arch Assignments\projects\FinalVersion\ALU.vhd
+Z8 FE:\Arch Assignments\projects\FinalVersion\ALU.vhd
+l0
+L6
+VQW7BhVg2_f[kDOld32G1Z1
+!s100 _SVASXg4XO8nHoThY3@Bk3
+Z9 OV;C;2019.2;69
+32
+Z10 !s110 1577047488
+!i10b 1
+Z11 !s108 1577047488.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:\Arch Assignments\projects\FinalVersion\ALU.vhd|
+Z13 !s107 E:\Arch Assignments\projects\FinalVersion\ALU.vhd|
+!i113 1
+Z14 o-work work -2002 -explicit
+Z15 tExplicit 1 CvgOpt 0
+Aa_alu
+R1
+R2
+R3
+R4
+R5
+Z16 DEx4 work 3 alu 0 22 QW7BhVg2_f[kDOld32G1Z1
+l45
+L19
+VThdLSg[[bW=NDX7dBKO:32
+!s100 <nEJ9hSM7EYHOofI2oDjg0
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Ealu_input
+Z17 w1577018792
+R4
+R5
+R6
+Z18 8E:/Arch Assignments/projects/FinalVersion/AluInputs.vhd
+Z19 FE:/Arch Assignments/projects/FinalVersion/AluInputs.vhd
+l0
+L4
+V5O[[IKBT`^9noE4lUf3U02
+!s100 _[d6VVH[e56h]`NMiA1Rl3
+R9
+32
+Z20 !s110 1577028476
+!i10b 1
+Z21 !s108 1577028476.000000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/AluInputs.vhd|
+Z23 !s107 E:/Arch Assignments/projects/FinalVersion/AluInputs.vhd|
+!i113 1
+R14
+R15
+Aa_alu_input
+R4
+R5
+DEx4 work 9 alu_input 0 22 5O[[IKBT`^9noE4lUf3U02
+l22
+L12
+VS6nlWaU[^ZI3PR^<`9_6z3
+!s100 P@b[TSChL<emBdXi`>hIR1
+R9
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R14
+R15
+Ebranchcheck
+Z24 w1576877212
+R4
+R5
+R6
+Z25 8E:/Arch Assignments/projects/FinalVersion/BranchCheck.vhd
+Z26 FE:/Arch Assignments/projects/FinalVersion/BranchCheck.vhd
+l0
+L4
+VDiz=F7aWhd3_=dd>0mV@<2
+!s100 675o8dHV7@fkY59ANz?Ah3
+R9
+32
+Z27 !s110 1577028469
+!i10b 1
+Z28 !s108 1577028469.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/BranchCheck.vhd|
+Z30 !s107 E:/Arch Assignments/projects/FinalVersion/BranchCheck.vhd|
+!i113 1
+R14
+R15
+Acheckbranch_arch
+R4
+R5
+DEx4 work 11 branchcheck 0 22 Diz=F7aWhd3_=dd>0mV@<2
+l45
+L17
+VbKa@]k85a8F@ZA;fbJZAM2
+!s100 ];ZbN=6MIVToFnf=N>[Bl3
+R9
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R14
+R15
+Echeckdestregdirect
+Z31 w1576876302
+R4
+R5
+R6
+Z32 8E:/Arch Assignments/projects/FinalVersion/checkDestRegDirect.vhd
+Z33 FE:/Arch Assignments/projects/FinalVersion/checkDestRegDirect.vhd
+l0
+L4
+V2XGIe_=inf5>V3ehBY3>62
+!s100 NQanHHnz92gQI8T8@D25o3
+R9
+32
+Z34 !s110 1577028470
+!i10b 1
+Z35 !s108 1577028470.000000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/checkDestRegDirect.vhd|
+Z37 !s107 E:/Arch Assignments/projects/FinalVersion/checkDestRegDirect.vhd|
+!i113 1
+R14
+R15
+Acheckdestregdirect_arch
+R4
+R5
+DEx4 work 18 checkdestregdirect 0 22 2XGIe_=inf5>V3ehBY3>62
+l19
+L15
+V_z^DSJ0D]8b7;8<Wj^V;:1
+!s100 D_0]PchXCj1_K7Uhe9AO40
+R9
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R14
+R15
+Echeckdirindirdest
+Z38 w1576874666
+R4
+R5
+R6
+Z39 8E:/Arch Assignments/projects/FinalVersion/checkDirIndirDest.vhd
+Z40 FE:/Arch Assignments/projects/FinalVersion/checkDirIndirDest.vhd
+l0
+L5
+VL>YGCzAX^:@iaPk2nKa<Q2
+!s100 nNS<M@jj>jUTmRAP;eoBZ0
+R9
+32
+R34
+!i10b 1
+R35
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/checkDirIndirDest.vhd|
+Z42 !s107 E:/Arch Assignments/projects/FinalVersion/checkDirIndirDest.vhd|
+!i113 1
+R14
+R15
+Acheckdirindirdest_arch
+R4
+R5
+DEx4 work 17 checkdirindirdest 0 22 L>YGCzAX^:@iaPk2nKa<Q2
+l18
+L14
+Vgab`;4zjR[R5QPcGm?P<b3
+!s100 1GM?obdIcz1HW:[bzY8eN2
+R9
+32
+R34
+!i10b 1
+R35
+R41
+R42
+!i113 1
+R14
+R15
+Echeckdirindirsrc
+Z43 w1576874124
+R4
+R5
+R6
+Z44 8E:/Arch Assignments/projects/FinalVersion/checkDirIndirSrc.vhd
+Z45 FE:/Arch Assignments/projects/FinalVersion/checkDirIndirSrc.vhd
+l0
+L4
+VVal3nj7_3bK5jbDPiZn4G0
+!s100 g@WkU:b73lWGM96DOBJf53
+R9
+32
+R34
+!i10b 1
+R35
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/checkDirIndirSrc.vhd|
+Z47 !s107 E:/Arch Assignments/projects/FinalVersion/checkDirIndirSrc.vhd|
+!i113 1
+R14
+R15
+Acheckdirindirsrc_arch
+R4
+R5
+DEx4 work 16 checkdirindirsrc 0 22 Val3nj7_3bK5jbDPiZn4G0
+l18
+L13
+V66kj5d[7GS^;3MMMdN;Uk2
+!s100 FK509ll_ZOTOj^mFi3@[K3
+R9
+32
+R34
+!i10b 1
+R35
+R46
+R47
+!i113 1
+R14
+R15
+Econtrolstore
+Z48 w1577021526
+R3
+R4
+R5
+R6
+Z49 8E:/Arch Assignments/projects/FinalVersion/control-store.vhd
+Z50 FE:/Arch Assignments/projects/FinalVersion/control-store.vhd
+l0
+L6
+VO9gAFa_J163lWX04o3VOQ3
+!s100 B[WZT0FCaLHl9S]7=SB382
+R9
+32
+Z51 !s110 1577028475
+!i10b 1
+Z52 !s108 1577028474.000000
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/control-store.vhd|
+Z54 !s107 E:/Arch Assignments/projects/FinalVersion/control-store.vhd|
+!i113 1
+R14
+R15
+Asyncrama
+R3
+R4
+R5
+DEx4 work 12 controlstore 0 22 O9gAFa_J163lWX04o3VOQ3
+l95
+L22
+VH:VAKe^nA9fmEV^WEFLUG2
+!s100 LG?8^EFK6V^MkU[G9Tkje0
+R9
+32
+R51
+!i10b 1
+R52
+R53
+R54
+!i113 1
+R14
+R15
+Edecoder
+Z55 w1576880004
+R4
+R5
+R6
+Z56 8E:/Arch Assignments/projects/FinalVersion/Decoder.vhd
+Z57 FE:/Arch Assignments/projects/FinalVersion/Decoder.vhd
+l0
+L4
+V?H>@`i^?=<Yk7Bc<]e_nS3
+!s100 JXN3:k3>jATgV4Z_>:@g`1
+R9
+32
+Z58 !s110 1577028471
+!i10b 1
+Z59 !s108 1577028471.000000
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/Decoder.vhd|
+Z61 !s107 E:/Arch Assignments/projects/FinalVersion/Decoder.vhd|
+!i113 1
+R14
+R15
+Adecoder_arch
+R4
+R5
+DEx4 work 7 decoder 0 22 ?H>@`i^?=<Yk7Bc<]e_nS3
+l99
+L16
+VcWJ7lRQB73K2T0iM7PAm:0
+!s100 [oVPlOOFH>jhT`]K6bbUQ0
+R9
+32
+R58
+!i10b 1
+R59
+R60
+R61
+!i113 1
+R14
+R15
+Edecoder38
+Z62 w1576932040
+R4
+R5
+R6
+Z63 8E:/Arch Assignments/projects/FinalVersion/decoder38.vhd
+Z64 FE:/Arch Assignments/projects/FinalVersion/decoder38.vhd
+l0
+L5
+V<OBOgK:RE_Bi9Ga=R=1H80
+!s100 MkF6Vac6CLAX2Lk2IoXM03
+R9
+32
+R51
+!i10b 1
+Z65 !s108 1577028475.000000
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/decoder38.vhd|
+Z67 !s107 E:/Arch Assignments/projects/FinalVersion/decoder38.vhd|
+!i113 1
+R14
+R15
+Adecoder38_arch
+R4
+R5
+DEx4 work 9 decoder38 0 22 <OBOgK:RE_Bi9Ga=R=1H80
+l13
+L12
+Vm1Y1TmaSH5n6ki:6MT?`L3
+!s100 b6aLh3=KK95c6=2S3W;<Z3
+R9
+32
+R51
+!i10b 1
+R65
+R66
+R67
+!i113 1
+R14
+R15
+Edecoder42
+Z68 w1575128484
+R4
+R5
+R6
+Z69 8E:/Arch Assignments/projects/FinalVersion/42decoder.vhd
+Z70 FE:/Arch Assignments/projects/FinalVersion/42decoder.vhd
+l0
+L5
+ViL;2db`8^XnFlQ9c]Gh290
+!s100 67gSVCT9f;Wa@ST;Y=7fZ3
+R9
+32
+Z71 !s110 1577028468
+!i10b 1
+Z72 !s108 1577028468.000000
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/42decoder.vhd|
+Z74 !s107 E:/Arch Assignments/projects/FinalVersion/42decoder.vhd|
+!i113 1
+R14
+R15
+Adecoder42_arch
+R4
+R5
+DEx4 work 9 decoder42 0 22 iL;2db`8^XnFlQ9c]Gh290
+l13
+L12
+V1YJo;J^zlX2OCSQLmojA>0
+!s100 7m;81ddDWJSZgeT8zMo9o0
+R9
+32
+R71
+!i10b 1
+R72
+R73
+R74
+!i113 1
+R14
+R15
+Edestbranch
+Z75 w1576955226
+R4
+R5
+R6
+Z76 8E:/Arch Assignments/projects/FinalVersion/DestBranch.vhd
+Z77 FE:/Arch Assignments/projects/FinalVersion/DestBranch.vhd
+l0
+L4
+VMX[GUEEU^H_:=EOz4]Sj91
+!s100 P6YKKNAzeGjkM2g2Cc?<e3
+R9
+32
+R58
+!i10b 1
+R59
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/DestBranch.vhd|
+Z79 !s107 E:/Arch Assignments/projects/FinalVersion/DestBranch.vhd|
+!i113 1
+R14
+R15
+Adestbranch_arch
+R4
+R5
+DEx4 work 10 destbranch 0 22 MX[GUEEU^H_:=EOz4]Sj91
+l18
+L14
+VQRiE0eBkz_<LH_5J=9^jR1
+!s100 d^]0e?MllIHRa:;1RiPEl1
+R9
+32
+R58
+!i10b 1
+R59
+R78
+R79
+!i113 1
+R14
+R15
+Edflipflop
+Z80 w1575129374
+R4
+R5
+R6
+Z81 8E:/Arch Assignments/projects/FinalVersion/dflipflop.vhd
+Z82 FE:/Arch Assignments/projects/FinalVersion/dflipflop.vhd
+l0
+L4
+Ve6oe>lN[899k6^g0A?lCU3
+!s100 1F<=;7G7AA=aQ`TO:_d3l1
+R9
+32
+R58
+!i10b 1
+R59
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/dflipflop.vhd|
+Z84 !s107 E:/Arch Assignments/projects/FinalVersion/dflipflop.vhd|
+!i113 1
+R14
+R15
+Adflipflop_arch
+R4
+R5
+DEx4 work 9 dflipflop 0 22 e6oe>lN[899k6^g0A?lCU3
+l17
+L14
+V?B3:l4d7M9NlM4dL=ocgE1
+!s100 Q3ENCTdRS1bY]M24EXTU02
+R9
+32
+R58
+!i10b 1
+R59
+R83
+R84
+!i113 1
+R14
+R15
+Eencoder42
+Z85 w1576863736
+R4
+R5
+R6
+Z86 8E:/Arch Assignments/projects/FinalVersion/42encoder.vhd
+Z87 FE:/Arch Assignments/projects/FinalVersion/42encoder.vhd
+l0
+L4
+VmOW4CnaB0JXf8zQ>>cEi93
+!s100 ]2?Y?eB2U9BOd>Y4X7<0j3
+R9
+32
+R71
+!i10b 1
+R72
+Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/42encoder.vhd|
+Z89 !s107 E:/Arch Assignments/projects/FinalVersion/42encoder.vhd|
+!i113 1
+R14
+R15
+Aencoder42_arch
+R4
+R5
+DEx4 work 9 encoder42 0 22 mOW4CnaB0JXf8zQ>>cEi93
+l15
+L12
+Ve>VdKNNFD3oCDzgiLoQZ=1
+!s100 ozAJ2ecUVf:j7;a7c`Wk?3
+R9
+32
+R71
+!i10b 1
+R72
+R88
+R89
+!i113 1
+R14
+R15
+Efull_adder
+Z90 w1575312198
+R4
+R5
+R6
+Z91 8E:/Arch Assignments/projects/FinalVersion/full_adder.vhd
+Z92 FE:/Arch Assignments/projects/FinalVersion/full_adder.vhd
+l0
+L4
+V2I=M>B^[n0>69FHWHXV[A1
+!s100 Sg@IOcl691OnH2UhPZhE:0
+R9
+32
+Z93 !s110 1577028477
+!i10b 1
+Z94 !s108 1577028477.000000
+Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/full_adder.vhd|
+Z96 !s107 E:/Arch Assignments/projects/FinalVersion/full_adder.vhd|
+!i113 1
+R14
+R15
+Afa_mix
+R4
+R5
+DEx4 work 10 full_adder 0 22 2I=M>B^[n0>69FHWHXV[A1
+l15
+L9
+Vj:zRHMlBmZIO>Ab@hJUjk0
+!s100 SoI[Qo_?o9<hFknK5BA8o3
+R9
+32
+R93
+!i10b 1
+R94
+R95
+R96
+!i113 1
+R14
+R15
+Ehalf_adder
+Z97 w1575312402
+R4
+R5
+R6
+Z98 8E:/Arch Assignments/projects/FinalVersion/half_adder.vhd
+Z99 FE:/Arch Assignments/projects/FinalVersion/half_adder.vhd
+l0
+L4
+V:ne`anAm0`]fD=I>YMk:;1
+!s100 ;I>U4J4QdR8C4ZL<Z7FF10
+R9
+32
+R93
+!i10b 1
+R94
+Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/half_adder.vhd|
+Z101 !s107 E:/Arch Assignments/projects/FinalVersion/half_adder.vhd|
+!i113 1
+R14
+R15
+Aha_dataflow
+R4
+R5
+DEx4 work 10 half_adder 0 22 :ne`anAm0`]fD=I>YMk:;1
+l9
+L8
+VoehG^RA79dIiVLISim3ZN1
+!s100 G=C1e5^GC>diaHEbK0DV^2
+R9
+32
+R93
+!i10b 1
+R94
+R100
+R101
+!i113 1
+R14
+R15
+Emain
+Z102 w1576936414
+R4
+R5
+R6
+Z103 8E:/Arch Assignments/projects/FinalVersion/main.vhd
+Z104 FE:/Arch Assignments/projects/FinalVersion/main.vhd
+l0
+L4
+V_`>d_Pz5UHhKX1[zke[a31
+!s100 4Rm55Nd79ojLe@_C7gj?>0
+R9
+32
+Z105 !s110 1577028472
+!i10b 1
+Z106 !s108 1577028472.000000
+Z107 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/main.vhd|
+Z108 !s107 E:/Arch Assignments/projects/FinalVersion/main.vhd|
+!i113 1
+R14
+R15
+Amain_arch
+R4
+R5
+DEx4 work 4 main 0 22 _`>d_Pz5UHhKX1[zke[a31
+l53
+L18
+V70[k<IZmMFgkiQbai<C>`0
+!s100 Umk5YSQLJ9n2LK<]RN?TP0
+R9
+32
+R105
+!i10b 1
+R106
+R107
+R108
+!i113 1
+R14
+R15
+Emaindecoder
+Z109 w1577017930
+R3
+R4
+R5
+R6
+Z110 8E:/Arch Assignments/projects/FinalVersion/mainDecoder.vhd
+Z111 FE:/Arch Assignments/projects/FinalVersion/mainDecoder.vhd
+l0
+L6
+VSRHKKho7kMS`dcCliQN^Z3
+!s100 da=[Kg<ITWSzeHlU3zIHH0
+R9
+32
+R51
+!i10b 1
+R65
+Z112 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/mainDecoder.vhd|
+Z113 !s107 E:/Arch Assignments/projects/FinalVersion/mainDecoder.vhd|
+!i113 1
+R14
+R15
+Amaindecoder_arch
+R3
+R4
+R5
+DEx4 work 11 maindecoder 0 22 SRHKKho7kMS`dcCliQN^Z3
+l65
+L24
+VGzkhlS6<5?;kGlaQ1=G>:3
+!s100 SM3A]2WOIR?h?1i^PZDd=0
+R9
+32
+R51
+!i10b 1
+R65
+R112
+R113
+!i113 1
+R14
+R15
+Emdr_register
+Z114 w1576961130
+R4
+R5
+R6
+Z115 8E:/Arch Assignments/projects/FinalVersion/mdr_reg.vhd
+Z116 FE:/Arch Assignments/projects/FinalVersion/mdr_reg.vhd
+l0
+L4
+Vj^N8QNN_=H96HO2G0F3460
+!s100 1MXS;d3AK7XUd@cEa1Z2z1
+R9
+32
+R105
+!i10b 1
+R106
+Z117 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/mdr_reg.vhd|
+Z118 !s107 E:/Arch Assignments/projects/FinalVersion/mdr_reg.vhd|
+!i113 1
+R14
+R15
+Aa_mdr_register
+R4
+R5
+DEx4 work 12 mdr_register 0 22 j^N8QNN_=H96HO2G0F3460
+l14
+L13
+VY14j`KohM:0>GZNiiaiV>3
+!s100 la7RU]k^PH8RKTGSICOH50
+R9
+32
+R105
+!i10b 1
+R106
+R117
+R118
+!i113 1
+R14
+R15
+Emianent
+Z119 w1577042454
+R4
+R5
+R6
+Z120 8E:\Arch Assignments\projects\FinalVersion\newMain.vhd
+Z121 FE:\Arch Assignments\projects\FinalVersion\newMain.vhd
+l0
+L4
+Vi0Da6a1nOkRgh[NXTZBb01
+!s100 `JZU8PC1zU9_m56KozlO=0
+R9
+32
+Z122 !s110 1577042459
+!i10b 1
+Z123 !s108 1577042459.000000
+Z124 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:\Arch Assignments\projects\FinalVersion\newMain.vhd|
+Z125 !s107 E:\Arch Assignments\projects\FinalVersion\newMain.vhd|
+!i113 1
+R14
+R15
+Amianent_arch
+R4
+R5
+DEx4 work 7 mianent 0 22 i0Da6a1nOkRgh[NXTZBb01
+l137
+L12
+V]?B;HIdMNPgdZFa?LdmmP2
+!s100 H]kUJ[CHfFGbn4GZ8P<V60
+R9
+32
+R122
+!i10b 1
+R123
+R124
+R125
+!i113 1
+R14
+R15
+Emux2
+Z126 w1575123340
+R4
+R5
+R6
+Z127 8E:/Arch Assignments/projects/FinalVersion/21mux.vhd
+Z128 FE:/Arch Assignments/projects/FinalVersion/21mux.vhd
+l0
+L4
+V6HNUP1l5D>YAR:n>XNYX32
+!s100 n>SaEjEfKoB[H]V:L^]Zj1
+R9
+32
+Z129 !s110 1577028467
+!i10b 1
+Z130 !s108 1577028467.000000
+Z131 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/21mux.vhd|
+Z132 !s107 E:/Arch Assignments/projects/FinalVersion/21mux.vhd|
+!i113 1
+R14
+R15
+Amux2arch
+R4
+R5
+DEx4 work 4 mux2 0 22 6HNUP1l5D>YAR:n>XNYX32
+l12
+L11
+V7X]z]:ziLd9QnF4g9fW=N3
+!s100 K?bS_Cec_PiN`Sk<9gjW91
+R9
+32
+R129
+!i10b 1
+R130
+R131
+R132
+!i113 1
+R14
+R15
+Emux2_16bit
+Z133 w1576865920
+R4
+R5
+R6
+Z134 8E:/Arch Assignments/projects/FinalVersion/21mux_6bits.vhd
+Z135 FE:/Arch Assignments/projects/FinalVersion/21mux_6bits.vhd
+l0
+L4
+V>fo34nf:W>lPe1mT_2ZmL0
+!s100 O9bj6QN87D0<L0Ph>K7`V1
+R9
+32
+R129
+!i10b 1
+R130
+Z136 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/21mux_6bits.vhd|
+Z137 !s107 E:/Arch Assignments/projects/FinalVersion/21mux_6bits.vhd|
+!i113 1
+R14
+R15
+Amux2arch_16bit
+R4
+R5
+DEx4 work 10 mux2_16bit 0 22 >fo34nf:W>lPe1mT_2ZmL0
+l13
+L12
+V=^7fVPl[0Jn5104o82@9a0
+!s100 kF_K;JJNOXfo]g821n?gR1
+R9
+32
+R129
+!i10b 1
+R130
+R136
+R137
+!i113 1
+R14
+R15
+Emux4
+Z138 w1575123022
+R4
+R5
+R6
+Z139 8E:/Arch Assignments/projects/FinalVersion/41mux.vhd
+Z140 FE:/Arch Assignments/projects/FinalVersion/41mux.vhd
+l0
+L4
+VTAL>Om72S<JXP^6jAL;QN1
+!s100 gODKf<1=[EPi0<fQf66kP3
+R9
+32
+R71
+!i10b 1
+R72
+Z141 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/41mux.vhd|
+Z142 !s107 E:/Arch Assignments/projects/FinalVersion/41mux.vhd|
+!i113 1
+R14
+R15
+Amux4arch
+R4
+R5
+DEx4 work 4 mux4 0 22 TAL>Om72S<JXP^6jAL;QN1
+l21
+L12
+V7eE_?1Oo1`IPFSaglffU41
+!s100 ld9YP=YgIk3?b^^eZRX7V0
+R9
+32
+R71
+!i10b 1
+R72
+R141
+R142
+!i113 1
+R14
+R15
+Emux4_6bits
+Z143 w1576866208
+R4
+R5
+R6
+Z144 8E:/Arch Assignments/projects/FinalVersion/42mux_6bits.vhd
+Z145 FE:/Arch Assignments/projects/FinalVersion/42mux_6bits.vhd
+l0
+L4
+V_VFj^O:Pg[za;C583e6P40
+!s100 Pc3OE=PjkhzXYd=>XPEei2
+R9
+32
+R27
+!i10b 1
+R28
+Z146 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/42mux_6bits.vhd|
+Z147 !s107 E:/Arch Assignments/projects/FinalVersion/42mux_6bits.vhd|
+!i113 1
+R14
+R15
+Amux4arch_6bits
+R4
+R5
+DEx4 work 10 mux4_6bits 0 22 _VFj^O:Pg[za;C583e6P40
+l25
+L15
+V`O:jfE18U>0dS6@?Q9<]31
+!s100 1>PE]S99Y[1c:z332dTD23
+R9
+32
+R27
+!i10b 1
+R28
+R146
+R147
+!i113 1
+R14
+R15
+Emux81
+Z148 w1576871482
+R4
+R5
+R6
+Z149 8E:/Arch Assignments/projects/FinalVersion/81mux.vhd
+Z150 FE:/Arch Assignments/projects/FinalVersion/81mux.vhd
+l0
+L4
+V:PZG_m[34;zmRd8CF0P@02
+!s100 ]dek@<M9ZC5YV>mEMLAe00
+R9
+32
+R27
+!i10b 1
+R28
+Z151 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/81mux.vhd|
+Z152 !s107 E:/Arch Assignments/projects/FinalVersion/81mux.vhd|
+!i113 1
+R14
+R15
+Amux81_arch
+R4
+R5
+DEx4 work 5 mux81 0 22 :PZG_m[34;zmRd8CF0P@02
+l40
+L20
+V2m_8zILI]?_MV;QBc]KZM3
+!s100 =m?Mome=@eji^EmnAX8G03
+R9
+32
+R27
+!i10b 1
+R28
+R151
+R152
+!i113 1
+R14
+R15
+Emux81_6bits
+Z153 w1576878282
+R4
+R5
+R6
+Z154 8E:/Arch Assignments/projects/FinalVersion/81mux_6bits.vhd
+Z155 FE:/Arch Assignments/projects/FinalVersion/81mux_6bits.vhd
+l0
+L4
+VT4;NgLf<>1?66IEZkBZF<0
+!s100 e:QEJolCh[BOk;KcZ_eBa3
+R9
+32
+R27
+!i10b 1
+R28
+Z156 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/81mux_6bits.vhd|
+Z157 !s107 E:/Arch Assignments/projects/FinalVersion/81mux_6bits.vhd|
+!i113 1
+R14
+R15
+Amux81_6bits_arch
+R4
+R5
+DEx4 work 11 mux81_6bits 0 22 T4;NgLf<>1?66IEZkBZF<0
+l44
+L20
+VLoIamJ;W[o?kWR8`=?3ic0
+!s100 D0gI<hXVV`QojD>W9VkaU0
+R9
+32
+R27
+!i10b 1
+R28
+R156
+R157
+!i113 1
+R14
+R15
+Enbits_adder
+Z158 w1575313188
+R4
+R5
+R6
+Z159 8E:/Arch Assignments/projects/FinalVersion/nbits_adder.vhd
+Z160 FE:/Arch Assignments/projects/FinalVersion/nbits_adder.vhd
+l0
+L5
+VS48zH]ZX;l?CM[:`CRL^42
+!s100 SKNz85OGl?]:BK2;VO0mz0
+R9
+32
+R93
+!i10b 1
+R94
+Z161 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/nbits_adder.vhd|
+Z162 !s107 E:/Arch Assignments/projects/FinalVersion/nbits_adder.vhd|
+!i113 1
+R14
+R15
+Anadder_mix
+R4
+R5
+DEx4 work 11 nbits_adder 0 22 S48zH]ZX;l?CM[:`CRL^42
+l23
+L15
+VThLR[_hSk<@09>6zhbjUb1
+!s100 LeX@PFTbWHXYheHk=F>0m1
+R9
+32
+R93
+!i10b 1
+R94
+R161
+R162
+!i113 1
+R14
+R15
+Eram
+Z163 w1576959654
+R3
+R4
+R5
+R6
+Z164 8E:/Arch Assignments/projects/FinalVersion/ram.vhd
+Z165 FE:/Arch Assignments/projects/FinalVersion/ram.vhd
+l0
+L5
+V0P5VW7NjTMMNH8W>eOlh80
+!s100 Kec8[ZjR0zcN6:>G`HK<E1
+R9
+32
+Z166 !s110 1577028639
+!i10b 1
+Z167 !s108 1577028639.000000
+Z168 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/ram.vhd|
+Z169 !s107 E:/Arch Assignments/projects/FinalVersion/ram.vhd|
+!i113 1
+R14
+R15
+Asyncrama
+R3
+R4
+R5
+DEx4 work 3 ram 0 22 0P5VW7NjTMMNH8W>eOlh80
+l19
+L14
+V:^e@VkOj0NnlPYnMeg[_J0
+!s100 c[N@eI<[kARAcM8XljOTW0
+R9
+32
+R166
+!i10b 1
+R167
+R168
+R169
+!i113 1
+R14
+R15
+Ereg16falling
+Z170 w1576936166
+R4
+R5
+R6
+Z171 8E:/Arch Assignments/projects/FinalVersion/16RegbitFalling.vhd
+Z172 FE:/Arch Assignments/projects/FinalVersion/16RegbitFalling.vhd
+l0
+L3
+V;6mE95J3GJ[P6]hldJ99i2
+!s100 R6Z8gmSOQlbN`[h_V_KD32
+R9
+32
+R129
+!i10b 1
+Z173 !s108 1577028466.000000
+Z174 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/16RegbitFalling.vhd|
+Z175 !s107 E:/Arch Assignments/projects/FinalVersion/16RegbitFalling.vhd|
+!i113 1
+R14
+R15
+Areg16falling_arch
+R4
+R5
+DEx4 work 12 reg16falling 0 22 ;6mE95J3GJ[P6]hldJ99i2
+l15
+L14
+VYbPVbI945`?60gjJh`<G71
+!s100 aIZYGS70BP4h9e;N<ECl20
+R9
+32
+R129
+!i10b 1
+R173
+R174
+R175
+!i113 1
+R14
+R15
+Ereg16rising
+Z176 w1576935202
+R4
+R5
+R6
+Z177 8E:/Arch Assignments/projects/FinalVersion/16RegRising.vhd
+Z178 FE:/Arch Assignments/projects/FinalVersion/16RegRising.vhd
+l0
+L3
+V8hh5DARhd8Q<=mgFciZmU2
+!s100 C_<H]bSfA[Z4OfogT>d=^1
+R9
+32
+R129
+!i10b 1
+R130
+Z179 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/16RegRising.vhd|
+Z180 !s107 E:/Arch Assignments/projects/FinalVersion/16RegRising.vhd|
+!i113 1
+R14
+R15
+Areg16rising_arch
+R4
+R5
+DEx4 work 11 reg16rising 0 22 8hh5DARhd8Q<=mgFciZmU2
+l15
+L14
+V_11CGNUROP<1nM;o;ZN3B2
+!s100 aef_RHk]3K]Wh73lC2cX73
+R9
+32
+R129
+!i10b 1
+R130
+R179
+R180
+!i113 1
+R14
+R15
+Eregister32
+Z181 w1575279418
+R4
+R5
+R6
+Z182 8E:/Arch Assignments/projects/FinalVersion/32bitREgister.vhd
+Z183 FE:/Arch Assignments/projects/FinalVersion/32bitREgister.vhd
+l0
+L3
+Vk_G?He4`4LY?fJz^2kb?h3
+!s100 X36^W4ANFaOR]TCJIEgKS3
+R9
+32
+R71
+!i10b 1
+R72
+Z184 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/32bitREgister.vhd|
+Z185 !s107 E:/Arch Assignments/projects/FinalVersion/32bitREgister.vhd|
+!i113 1
+R14
+R15
+Aregister32_arch
+R4
+R5
+DEx4 work 10 register32 0 22 k_G?He4`4LY?fJz^2kb?h3
+l15
+L14
+VZKL`QbmORJ8X0fmGAdEK13
+!s100 lLL7:R]P=>6Si]`P1Qbz;2
+R9
+32
+R71
+!i10b 1
+R72
+R184
+R185
+!i113 1
+R14
+R15
+Etristatebuffer
+Z186 w1576935338
+R4
+R5
+R6
+Z187 8E:/Arch Assignments/projects/FinalVersion/triStateBuffer.vhd
+Z188 FE:/Arch Assignments/projects/FinalVersion/triStateBuffer.vhd
+l0
+L4
+VAdXB3M_O@CWVAMg0>c2ZO3
+!s100 Fbjf4hj8Dd]JnJYA:mg>N0
+R9
+32
+Z189 !s110 1577028473
+!i10b 1
+Z190 !s108 1577028473.000000
+Z191 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/triStateBuffer.vhd|
+Z192 !s107 E:/Arch Assignments/projects/FinalVersion/triStateBuffer.vhd|
+!i113 1
+R14
+R15
+Atristatebuffer_arch
+R4
+R5
+DEx4 work 14 tristatebuffer 0 22 AdXB3M_O@CWVAMg0>c2ZO3
+l15
+L12
+Vk6H5W@i593R1ic^KLg?:G2
+!s100 K3z3;IdYA9bHVVi^EmNA=2
+R9
+32
+R189
+!i10b 1
+R190
+R191
+R192
+!i113 1
+R14
+R15
+Ewidebranch
+Z193 w1576868410
+R4
+R5
+R6
+Z194 8E:/Arch Assignments/projects/FinalVersion/WideBranch.vhd
+Z195 FE:/Arch Assignments/projects/FinalVersion/WideBranch.vhd
+l0
+L4
+V`k0iROLg]4LJUmNH33j>b2
+!s100 H=4[jWo;DZiAo0biffl4V0
+R9
+32
+Z196 !s110 1577028474
+!i10b 1
+R52
+Z197 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/WideBranch.vhd|
+Z198 !s107 E:/Arch Assignments/projects/FinalVersion/WideBranch.vhd|
+!i113 1
+R14
+R15
+Awidebranch_arch
+R4
+R5
+DEx4 work 10 widebranch 0 22 `k0iROLg]4LJUmNH33j>b2
+l46
+L18
+VPlWQ`d:5bneLEa4b5V<In3
+!s100 PfENTKni7If54djY?NPXS0
+R9
+32
+R196
+!i10b 1
+R52
+R197
+R198
+!i113 1
+R14
+R15
+Ewidebranchpart1
+Z199 w1576864968
+R4
+R5
+R6
+Z200 8E:/Arch Assignments/projects/FinalVersion/wideBranchPart1.vhd
+Z201 FE:/Arch Assignments/projects/FinalVersion/wideBranchPart1.vhd
+l0
+L4
+VM?FeN6TgCMmGYH9D:^E8e3
+!s100 4E1I7TgaQTBjJg8Ve10TX1
+R9
+32
+R196
+!i10b 1
+R52
+Z202 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/wideBranchPart1.vhd|
+Z203 !s107 E:/Arch Assignments/projects/FinalVersion/wideBranchPart1.vhd|
+!i113 1
+R14
+R15
+Awidebranchpart1_arch
+R4
+R5
+DEx4 work 15 widebranchpart1 0 22 M?FeN6TgCMmGYH9D:^E8e3
+l26
+L16
+VUm[19d4e4]Wo]f0__4;1;2
+!s100 IYhA;G@P6Nin`m13>i5gJ0
+R9
+32
+R196
+!i10b 1
+R52
+R202
+R203
+!i113 1
+R14
+R15
+Ewidebranchpart2
+Z204 w1576952232
+R4
+R5
+R6
+Z205 8E:/Arch Assignments/projects/FinalVersion/wideBrachPart2.vhd
+Z206 FE:/Arch Assignments/projects/FinalVersion/wideBrachPart2.vhd
+l0
+L4
+VM:7_FPmPjK^KO2?5E__0U2
+!s100 7?98dnYY>fCifB`aza3;z1
+R9
+32
+R189
+!i10b 1
+R190
+Z207 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/wideBrachPart2.vhd|
+Z208 !s107 E:/Arch Assignments/projects/FinalVersion/wideBrachPart2.vhd|
+!i113 1
+R14
+R15
+Awidebranchpart2_arch
+R4
+R5
+DEx4 work 15 widebranchpart2 0 22 M:7_FPmPjK^KO2?5E__0U2
+l43
+L16
+V`ogXnEZzEe9fh0U3X_@1W2
+!s100 :l>AIIndnCC=fW:0;BF@N1
+R9
+32
+R189
+!i10b 1
+R190
+R207
+R208
+!i113 1
+R14
+R15
+Ezreg16rising
+Z209 w1577009146
+R4
+R5
+R6
+Z210 8E:/Arch Assignments/projects/FinalVersion/zRegister.vhd
+Z211 FE:/Arch Assignments/projects/FinalVersion/zRegister.vhd
+l0
+L3
+V67Ie@<iRIN[ZCW;LK;efQ3
+!s100 ROcD>H9c`6z[HWmDZ67PR1
+R9
+32
+R20
+!i10b 1
+R21
+Z212 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Arch Assignments/projects/FinalVersion/zRegister.vhd|
+Z213 !s107 E:/Arch Assignments/projects/FinalVersion/zRegister.vhd|
+!i113 1
+R14
+R15
+Azreg16rising_arch
+R4
+R5
+DEx4 work 12 zreg16rising 0 22 67Ie@<iRIN[ZCW;LK;efQ3
+l15
+L14
+VUDg`Wb;7jhQnJaJMb0i<Y1
+!s100 0[51^bPbg749J3ll96CP80
+R9
+32
+R20
+!i10b 1
+R21
+R212
+R213
+!i113 1
+R14
+R15
